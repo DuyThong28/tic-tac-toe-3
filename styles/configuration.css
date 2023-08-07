@@ -1,0 +1,29 @@
+#game-configuration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-configuration ol {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+#game-configuration li {
+  padding: 2rem 5rem;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.332);
+}
+
+.error {
+  color: rgb(240, 72, 72);
+}
+
+.error input {
+  background-color: rgb(200, 61, 61);
+}

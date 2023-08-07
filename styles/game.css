@@ -1,0 +1,39 @@
+#game-over {
+  background-color: rgb(21, 149, 174);
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  display: none;
+}
+
+#active-game {
+  display: none;
+}
+
+#game-board {
+  width: 20rem;
+  height: 20rem;
+  display: grid;
+  grid-template-columns: 6fr 6fr 6fr;
+  grid-template-rows: 6fr 6fr 6fr;
+  list-style: none;
+  gap: 0.5rem;
+  margin: 1rem auto;
+}
+
+#game-board li {
+  padding: 1rem;
+  background-color: rgb(96, 255, 255);
+  border-radius: 10px;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+
+#game-board li:hover {
+  background-color: rgb(5, 141, 141);
+}
+
+#game-board .disabled {
+  background-color: rgb(5, 141, 141);
+}
